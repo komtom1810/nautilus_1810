@@ -1,0 +1,1 @@
+Khi thực hiện bất kì thao tác nào liên quan đến remote thì bắt buộc phải nhập thông tin đăng nhập, đây là điều kiện để đảm bảo dữ liệu của mình không bị mất. Nhưng nếu mỗi thao tác đều phải nhập username và password thì rất phiền, vì vậy sử dụng credential store để lưu trữ mật khẩu trên disk, nghĩa là nó sẽ tự động đăng nhập cho mỗi thao tác của mình
