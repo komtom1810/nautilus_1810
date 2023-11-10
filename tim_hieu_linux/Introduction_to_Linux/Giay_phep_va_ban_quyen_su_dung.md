@@ -1,4 +1,4 @@
-#Giấy phép và bản quyền sử dụng g
+# Giấy phép và bản quyền sử dụng 
 Linux là một hệ điều hành mã nguồn mở, nghĩa là mã nguồn của nó là công khai và có sẵn để mọi người xem, sửa đổi và phân phối lại. Điều này có nghĩa là bạn có thể sử dụng Linux mà không cần phải mua giấy phép.
 
 Tính đặc biệt của Linux là nó phát triển dưới các giấy phép mã nguồn mở như GNU General Public License (GPL). Điều này đảm bảo rằng bất kỳ ai cũng có thể sử dụng, sao chép, sửa đổi và phân phối lại mã nguồn của Linux, miễn là họ giữ nguyên các điều khoản giấy phép. Điều này tạo ra môi trường tích cực cho sự hợp tác và đóng góp từ cộng đồng lập trình viên trên toàn thế giới.
