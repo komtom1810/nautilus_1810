@@ -1,20 +1,20 @@
 # Các lệnh với tập tin linux
 
-## 1.file
+## 1.Lệnh file
 Lệnh **file** trong Linux được sử dụng để xác định loại nội dung của một tệp tin. Nó kiểm tra dữ liệu trong tệp và xuất ra một mô tả của loại nội dung, ví dụ như văn bản ASCII, hình ảnh JPEG, tệp tin nhị phân, v.v. Dưới đây là cú pháp cơ bản của lệnh file:
 file tên_tệp
 
 Một số tùy chọn thường được sử dụng:
 - **Hiển thị thông tin chi tiết:**
-file -i tên_tệp
+file -i tên_tệp. 
 Kết quả sẽ bao gồm loại MIME của tệp.
 
 - **Hiển thị thông tin với tên tệp đầy đủ:**
-file -b tên_tệp
+file -b tên_tệp. 
 Kết quả sẽ không chứa tên tệp mà chỉ là thông tin về loại nội dung.
 
 - **Kiểm tra nhiều tệp:**
-file tệp1 tệp2 tệp3
+file tệp1 tệp2 tệp3. 
 Lệnh này kiểm tra nhiều tệp cùng một lúc.
 
 Lệnh **file** là một công cụ hữu ích khi muốn biết loại nội dung của một tệp tin mà không cần mở nó
@@ -30,11 +30,11 @@ Một số tùy chọn phổ biến:
 touch tệp1 tệp2 tệp3
 
 - **Cập nhật thời gian truy cập và thời gian sửa đổi của tệp:**
-touch -a tên_tệp
+touch -a tên_tệp. 
 Tùy chọn -a sẽ cập nhật thời gian truy cập của tệp.
 
 - **Tạo tệp mới với nội dung mẫu:**
-touch tên_tệp && echo "Nội dung mẫu" > tên_tệp
+touch tên_tệp && echo "Nội dung mẫu" > tên_tệp. 
 Lệnh trên sẽ tạo một tệp mới và điền nội dung mẫu vào đó.
 
 ## 3.Lệnh cp
@@ -49,7 +49,7 @@ cp tệp nguồn_thư_mục
 cp tệp1 tệp2 tệp3 nguồn_thư_mục
 
 - **Sao chép thư mục và nội dung của nó đến một thư mục khác:**
-cp -r thư_mục nguồn_thư_mục
+cp -r thư_mục nguồn_thư_mục. 
 Tùy chọn **-r** hoặc **-R** là để sao chép thư mục và nội dung của nó (recursively).
 
 - **Ghi đè tệp mà không cần xác nhận (force):**
@@ -59,7 +59,7 @@ cp -f nguồn đích
 cp -i nguồn đích
 
 - **Sao chép tất cả các tệp, bao gồm cả những tệp ẩn (all):**
-cp -a nguồn đích
+cp -a nguồn đích. 
 Tùy chọn **-a* thường được sử dụng để duy trì tất cả các thông tin về tệp, bao gồm cả quyền và ngày tạo.
 
 ## 4.Lệnh mv
@@ -70,7 +70,7 @@ mv [tùy_chọn] nguồn đích
 mv tên_tệp nguồn_thư_mục
 
 - **Di chuyển thư mục và nội dung của nó đến một thư mục khác:**
-mv thư_mục nguồn_thư_mục
+mv thư_mục nguồn_thư_mục. 
 Tùy chọn -r hoặc -R là để di chuyển thư mục và nội dung của nó (recursively).
 
 - **Di chuyển nhiều tệp đến một thư mục:**
@@ -100,7 +100,7 @@ rm tên_tệp
 rm tệp1 tệp2 tệp3
 
 - **Xóa thư mục và nội dung của nó:**
-rm -r tên_thư_mục
+rm -r tên_thư_mục.
 Tùy chọn -r hoặc -R là để xóa thư mục và nội dung của nó (recursively).
 
 - **Xóa mà không hiển thị thông báo xác nhận (force):**
